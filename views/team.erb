@@ -6,8 +6,11 @@
  </head>
  <body>
  
+ <h2><%= @team_name %></h2>
 
-
+ <% @players.each do |role| %>
+    <h2><%= role %></h2>
+  <% end %>
  </body>
 </html>
 
